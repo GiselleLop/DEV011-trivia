@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Trivia Paises</title>
+
+    <link rel="stylesheet" href="style-body.css" />
+
+    <script src="/body-script.js" defer></script>
+  </head>
+  <body>
+    <headed class="titulo">
+      <h1 id="nombreResp" class="text-center fw-light"></h1>
+    </headed>
+    <form class="formulario">
+      <label>
+        <h3 id="timer1"></h3>
+
+        <ol type="A" class="rb">
+          <h4>1.¿Cuál es el país más largo del mundo?</h4>
+          <li>
+            <input type="radio" name="re1" id="r1" value="Ecuador"/>
+            Ecuador
+          </li>
+          <li>
+            <input type="radio" name="re1" id="r2" value="México"/>
+            México
+          </li>
+          <li>
+            <input type="radio" name="re1" id="r3" value="Brazil"/>
+            Brazil
+          </li>
+          <li><input type="radio" name="re1" id="r4" value="Chile"/>
+            Chile</li>
+        </ol>
+
+        <h4 class="resp" id="reC1"></h4>
+        <h4 class="resp" id="punt1"></h4>
+      </label>
+
+      <label>
+        <h3 id="timer2"></h3>
+        <ol type="A" class="rb">
+          <h4>2. ¿A qué país pertenece Machupichu?</h4>
+
+          <li>
+            <input type="radio" name="re2" id="r5" value="Israel"/>
+            Israel
+          </li>
+          <li>
+            <input type="radio" name="re2" id="r6" value="Inglaterra"/>
+            Inglaterra
+          </li>
+          <li><input type="radio" name="re2" id="r7" value="Perú"/>
+            Perú
+          </li>
+          <li>
+            <input type="radio" name="re2" id="r8" value="Colombia"/>
+            Colombia
+          </li>
+        </ol>
+        <h4 class="resp" id="reC2"></h4>
+        <h4 class="resp" id="punt2"></h4>
+      </label>
+
+      <label>
+        <h3 id="timer3"></h3>
+
+        <ol type="A" class="rb">
+          <h4>3. ¿Cuál es la capital de México?</h4>
+
+          <li>
+            <input type="radio" name="re3" id="r9" value="Santiago"/>
+            Santiago
+          </li>
+          <li><input type="radio" name="re3" id="r10" value="Lima"/>
+            Lima
+          </li>
+          <li>
+            <input type="radio" name="re3" id="r11" value="Ciudad de México"/>
+            Ciudad de México
+          </li>
+          <li>
+            <input type="radio" name="re3" id="r12" value="Bogotá"/>
+            Bogotá
+          </li>
+        </ol>
+        <h4 class="resp" id="reC3"></h4>
+        <h4 class="resp" id="punt3"></h4>
+      </label>
+    </form>
+
+
+    <button class="btnResp" type="submit" id="texto" onclick="resultado()">
+      Responder y ver resultados
+    </button>
+
+    <div class="respPunt">
+      <h3 id="Correct"></h3>
+
+      <h3 id="punTotal"></h3>
+    </div>
+
+    <button class="btnResp2" type="button" name="jugar" id="jugar">
+      <a href="index.html"> Volver a Jugar </a>
+    </button>
+
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="style-body.css" />
+    <script src="peliculas.js" defer></script>
+  </head>
+
+  <body>
+    <headed class="titulo">
+      <h1 id="nombreResp" class="text-center fw-light"></h1>
+    </headed>
+
+    <form class="formulario">
+      <label>
+        <ol type="A" class="rb">
+          <h4>1.¿Cuál es la famosa cita de El Sexto Sentido?</h4>
+          <li>
+            <input type="radio" name="re1" id="r1" value="«Veo a gente muerta»"/>
+            «Veo a gente muerta»
+          </li>
+          
+          <li>
+            <input type="radio" name="re1" id="r2" value="«Caminando como gente normal. Ellos no se ven. Ellos solo ven lo que quieren ver. No saben que están muertos»"/>
+            «Caminando como gente normal. Ellos no se ven. Ellos solo ven lo que quieren ver. No saben que están muertos»
+          </li>
+
+          <li>
+            <input type="radio" name="re1" id="r3" value="«Quiero decirte mi secreto ahora.En ocasiones veo muertos.»"/>
+            «Quiero decirte mi secreto ahora.En ocasiones veo muertos.»
+          </li>
+          
+          <li>
+            <input type="radio" name="re1" id="r4" value="«A veces la gente piensa que pierde cosas, pero en realidad no las pierden. Sólo se mueven.»"/>
+              «A veces la gente piensa que pierde cosas, pero en realidad no las pierden. Sólo se mueven.»
+          </li>
+        
+        </ol>
+
+        <h4 class="resp" id="reC1"></h4>
+        <h4 class="resp" id="punt1"></h4>
+      </label>
+
+      <label>
+        <ol type="A" class="rb">
+        <h4>2. ¿Qué ciudad está plagada de fantasmas en “Cazafantasmas”?</h4>
+          <li> 
+          <input type="radio" name="re2" id="r5" value="Dallas"/>
+            Dallas
+          </li>
+        
+          <li>
+            <input type="radio" name="re2" id="r6" value="Nueva York "/>
+            Nueva York
+          </li>
+          
+          <li>
+            <input type="radio" name="re2" id="r7" value="San Francisco"/>
+            San Francisco
+          </li>
+          
+          <li>
+            <input type="radio" name="re2" id="r8" value="California"/>
+            California
+          </li>
+          
+        </ol>
+        <h4 class="resp" id="reC2"></h4>
+        <h4 class="resp" id="punt2"></h4>
+      </label>
+
+      <label>
+        <ol type="A" class="rb">
+          <h4>3. ¿Cómo se llama la actriz que interpreta a una prostituta en la
+                clásica comedia romántica de 1990 "Pretty Woman"?</h4>
+          
+          <li>
+            <input type="radio" name="re3" id="r9" value="Emma Stone"/>
+            Emma Stone
+          </li>
+          
+          <li>
+            <input type="radio" name="re3" id="r10" value="Margot Robbie"/>
+            Margot Robbie
+          </li>
+          
+          <li>
+            <input type="radio" name="re3" id="r11" value="Meryl Streep"/>
+            Meryl Streep
+          </li>
+          
+          <li>
+            <input type="radio" name="re3" id="r12" value="Julia Roberts"/>
+            Julia Roberts
+          </li>
+        </ol>
+        <h4 class="resp" id="reC3"></h4>
+        <h4 class="resp" id="punt3"></h4>
+      </label>
+
+    </form>
+
+    <button class="btnResp" type="submit" id="texto" onclick="resultado()">
+      Responder y ver resultados
+    </button>
+    
+    <h3 id="Correct"></h3>
+    <h3 id="punTotal"></h3>
+
+    <button class="btnResp2" type="button" name="jugar" id="jugar">
+      <a href="index.html"> Volver a Jugar </a>
+    </button>
+
+    <footer></footer>
+  </body>
+</html>

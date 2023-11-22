@@ -1,0 +1,89 @@
+
+
+body {
+  
+    background: #ABEBC6;
+    height: 100vh;
+    font-family:Sans-serif;
+    display: grid;
+    place-items: center;
+  } 
+  
+  .titulo {
+  
+    width:500px;
+    background: white;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    border-bottom: 4px solid #900C3F;
+    box-shadow: 7px 13px 37px #000000;
+    margin-bottom:10px;
+    } 
+  
+   .formulario {
+    width: 500px; 
+    height: auto;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    box-shadow: 7px 13px 37px #000000;
+  } 
+  
+  /*.preguntas{
+    padding:11px, 10px;
+    width:600px;
+    height: 100vh;
+    background: white;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-bottom: 4px solid #900C3F;
+    box-shadow: 7px 13px 37px #000000;
+    ;
+    } */
+    
+  .btnResp  { 
+    width: 350px;
+    height: 30px;
+    background:#F77C27;
+    color:black;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;  
+    }
+  
+  .textop  { 
+    width: 350px;
+    height: 30px;
+    background:#F77C27;
+    color:black;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;  
+    }
+  
+  .btnResp2  { 
+    width: 350px;
+    height: 30px;
+    margin-top: 1px;
+    background:#F77C27;
+    color:black;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+  
+    }
+  .respPunt{
+  background-color: transparent;
+  width: 350px;
+  height: auto;
+    
+  }
+    

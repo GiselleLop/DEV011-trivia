@@ -1,0 +1,40 @@
+* {
+  height: 100%;
+  width: 100%;
+}
+body {  
+  background: #ABEBC6;
+  font-family:Sans-serif;
+  display: flex;
+  place-content: center;
+  align-items: center;
+ }
+
+.formulario { 
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  place-content: center;
+  align-items: center;
+  font-family: Sans-serif;
+  background:white;
+  box-shadow: 7px 13px 37px #000000;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+   }
+  .formulario p {
+  font-size: 30px;
+  height: auto;
+  margin: 0px;
+}
+.jugar {
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  background: rgb(96, 134, 223);
+  border: none;
+  border-radius: 10px;
+  }
